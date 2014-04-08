@@ -44,10 +44,10 @@
       <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="132" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.509901" vertical-offset="2" max-vertical-offset="1314">
+            <state line="44" column="12" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.5792079" vertical-offset="324" max-vertical-offset="1332">
               <folding>
                 <element signature="e#308#1055#2" expanded="true" />
-                <element signature="e#2549#3296#2" expanded="true" />
+                <element signature="e#2562#3309#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -247,10 +247,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="132" selection-start="2014" selection-end="2014" vertical-scroll-proportion="0.509901" vertical-offset="2" max-vertical-offset="1314">
+        <state line="44" column="12" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.5792079" vertical-offset="324" max-vertical-offset="1332">
           <folding>
             <element signature="e#308#1055#2" expanded="true" />
-            <element signature="e#2549#3296#2" expanded="true" />
+            <element signature="e#2562#3309#2" expanded="true" />
           </folding>
         </state>
       </provider>
