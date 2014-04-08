@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="69" selection-start="344" selection-end="344" vertical-scroll-proportion="0.21276596" vertical-offset="0" max-vertical-offset="846">
+            <state line="10" column="69" selection-start="344" selection-end="344" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -41,13 +41,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="1938" selection-end="1938" vertical-scroll-proportion="-10.384615" vertical-offset="54" max-vertical-offset="1350">
+            <state line="49" column="30" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.490099" vertical-offset="486" max-vertical-offset="1350">
               <folding>
                 <element signature="e#309#972#2" expanded="true" />
-                <element signature="e#2356#3103#2" expanded="true" />
+                <element signature="e#2367#3114#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +64,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.less" />
       </list>
     </option>
   </component>
@@ -306,20 +306,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.less">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1938" selection-end="1938" vertical-scroll-proportion="-10.384615" vertical-offset="54" max-vertical-offset="1350">
-          <folding>
-            <element signature="e#309#972#2" expanded="true" />
-            <element signature="e#2356#3103#2" expanded="true" />
-          </folding>
+        <state line="10" column="69" selection-start="344" selection-end="344" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="540">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="69" selection-start="344" selection-end="344" vertical-scroll-proportion="0.21276596" vertical-offset="0" max-vertical-offset="846">
-          <folding />
+        <state line="49" column="30" selection-start="2161" selection-end="2161" vertical-scroll-proportion="0.490099" vertical-offset="486" max-vertical-offset="1350">
+          <folding>
+            <element signature="e#309#972#2" expanded="true" />
+            <element signature="e#2367#3114#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
