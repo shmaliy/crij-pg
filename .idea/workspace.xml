@@ -44,10 +44,10 @@
       <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="12" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.5792079" vertical-offset="324" max-vertical-offset="1332">
+            <state line="31" column="19" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.6905941" vertical-offset="0" max-vertical-offset="1350">
               <folding>
-                <element signature="e#308#1055#2" expanded="true" />
-                <element signature="e#2562#3309#2" expanded="true" />
+                <element signature="e#309#972#2" expanded="true" />
+                <element signature="e#2353#3100#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,7 +170,80 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="0ce99c50-2022-4bd3-a5b0-26e4cc9be27c">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="2fcd0a12-98a1-4a60-a5f3-19d97cb29614">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="75ee5fe0-d760-473a-8491-77ac6e90b02a">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="b389791e-c7d6-4a02-94a1-b9a0fc901b05">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="cc4f28e2-afdd-47d9-a2b1-62d0652176b1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="dde39df7-c101-4303-9fc5-8e16be75be5d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="e5a984cf-ce06-4fb4-9e42-9901deb098a2">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="faf06225-2bf8-4f32-ace2-1cda9e152ead">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -226,11 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/Andy_Bernard.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="24" selection-start="564" selection-end="564" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="540">
@@ -247,10 +315,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="12" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.5792079" vertical-offset="324" max-vertical-offset="1332">
+        <state line="31" column="19" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.6905941" vertical-offset="0" max-vertical-offset="1350">
           <folding>
-            <element signature="e#308#1055#2" expanded="true" />
-            <element signature="e#2562#3309#2" expanded="true" />
+            <element signature="e#309#972#2" expanded="true" />
+            <element signature="e#2353#3100#2" expanded="true" />
           </folding>
         </state>
       </provider>
