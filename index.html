@@ -1,15 +1,25 @@
 <html>
+<head>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="lib/jquery-1.8.2.min.js"></script>
+    <script src="js/storage/memory-store.js"></script>
+    <script src="js/main.js"></script>
+</head>
 <body>
-
-<div class='header'><h1>Home</h1></div>
-<div class='search-view'>
-<input class='search-key' type="text"/>
-<ul class='employee-list'></ul>
-</div>
-
-<script src="lib/jquery-1.8.2.min.js"></script>
-<script src="js/storage/memory-store.js"></script>
-<script src="js/main.js"></script>
-
+    <div class="wrapper">
+        <div class="bar">
+            <a href="#" id="menuToggler" class="menu-icon collapsed">*</a>
+            <div class="logo"></div>
+        </div>
+        <div class="content">
+            <iframe src="http://crij-haute-normandie.org" width="320"></iframe>
+        </div>
+        <div class="slide-menu">
+            <ul>
+                <li><a href="#" rel="/" class="home">Accueil</a></li>
+                <li><a href="#" rel="/-Nos-services,fr.html" class="services">Nos services</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

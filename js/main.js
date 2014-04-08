@@ -1,5 +1,8 @@
 var app = {
 
+
+
+
     findByName: function() {
         console.log('findByName');
         this.store.findByName($('.search-key').val(), function(employees) {
