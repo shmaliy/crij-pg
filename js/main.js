@@ -75,6 +75,7 @@ var app = {
         $('.search-key').on('keyup', $.proxy(this.findByName, this));
         app.displayAjust();
         app.menuToggle();
+        app.touchCaptures();
     }
 
 };
