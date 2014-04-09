@@ -44,17 +44,6 @@ var app = {
         });
     },
 
-    touchCaptures: function () {
-      $('html').on('touchstart', function(e) {
-          e.preventDefault();
-          var touch = e.touches[0];
-          if (touch.pageX < 15) {
-              $(this).on('touchmove', function(e){
-                  $('#menuToggler').click();
-              });
-          }
-      });
-    },
 
 
     findByName: function() {
@@ -82,4 +71,17 @@ var app = {
 
 $(function(){
     app.initialize();
+
+
+    $( document ).on( "pageinit", function() {
+
+        $( document ).on( "swipeleft swiperight", function( e ) {
+            // We check if there is no open panel on the page because otherwise
+            // a swipe to close the left panel would also open the right panel (and v.v.).
+            // We do this by checking the data that the framework stores on the page element (panel: open).
+            $('#menuToggler').click();
+        });
+    });
 });
+
+
