@@ -64,7 +64,6 @@ var app = {
         $('.search-key').on('keyup', $.proxy(this.findByName, this));
         app.displayAjust();
         app.menuToggle();
-        app.touchCaptures();
     }
 
 };
@@ -75,11 +74,13 @@ $(function(){
 
     $( document ).on( "pageinit", function() {
 
-        $( document ).on( "swipeleft swiperight", function( e ) {
+        $( document ).on( "pageinit", "#all", function() {
+            $( document ).on( "swipeleft swiperight", "#all", function( e ) {
             // We check if there is no open panel on the page because otherwise
             // a swipe to close the left panel would also open the right panel (and v.v.).
             // We do this by checking the data that the framework stores on the page element (panel: open).
             $('#menuToggler').click();
+            });
         });
     });
 });
