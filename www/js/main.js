@@ -34,12 +34,12 @@ var app = {
 
                 $('.slide-menu').animate({
                     left: "+=" + app.devWidth + 'px'
-                }, 1800);
+                }, 1900);
             } else {
 
                 $('.slide-menu').animate({
                     left: "-=" + app.devWidth + 'px'
-                }, 1800);
+                }, 1900);
             }
         });
     },
