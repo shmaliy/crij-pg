@@ -44,7 +44,23 @@ var app = {
         });
     },
 
+    menuController: function () {
+        var buttons = $('.slide-menu li a');
+        var domain = 'http://crij-haute-normandie.org';
 
+        $(buttons).each(function () {
+            $(this).click(function (e) {
+                e.preventDefault();
+
+                var src = domain + $(this).attr('rel');
+
+                $('#webView').attr('src', src);
+                $('#menuToggler').click();
+
+
+            });
+        });
+    },
 
     findByName: function() {
         console.log('findByName');
@@ -64,6 +80,7 @@ var app = {
         $('.search-key').on('keyup', $.proxy(this.findByName, this));
         app.displayAjust();
         app.menuToggle();
+        app.menuController();
     }
 
 };
