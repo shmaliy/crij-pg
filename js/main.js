@@ -44,6 +44,18 @@ var app = {
         });
     },
 
+    touchCaptures: function () {
+      $('html').on('touchstart', function(e) {
+          e.preventDefault();
+          var touch = e.touches[0];
+          if (touch.pageX < 15) {
+              $(this).on('touchmove', function(e){
+                  $('#menuToggler').click();
+              });
+          }
+      });
+    },
+
 
     findByName: function() {
         console.log('findByName');
