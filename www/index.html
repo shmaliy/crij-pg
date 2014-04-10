@@ -1,5 +1,7 @@
 <html>
 <head>
+    <gap:splash src="splashScreensFolder/splashscreen_main-568h@2x.png" gap:platform="android" gap:density="ldpi" />
+    <meta charset="utf-8">
     <link href="css/main.css" rel="stylesheet">
     <script src="lib/jquery-1.8.2.min.js"></script>
     <script src="js/jquery.mobile/jquery.mobile-1.4.2.min.js"></script>
@@ -10,21 +12,41 @@
     <div class="wrapper" id="all">
         <div class="bar">
             <a href="#" id="menuToggler" class="menu-icon collapsed"></a>
-            <div class="logo"></div>
+            <div id="logo">
+                <div class="logo" id="Accueil"></div>
+            </div>
+            <div id="search" class="clearfix">
+                <div class="string">
+                    <input type="text" maxlength="60" id="searchQuery">
+                </div>
+                <div class="button">
+                    <a href="#" id="submitSearch"></a>
+                </div>
+            </div>
+
+            <a href="#" id="findToggler"></a>
+            <a href="#" id="refreshIframe"></a>
+            <a href="#" id="closeSearch"></a>
+
         </div>
         <div class="content">
-            <iframe src="http://crij-haute-normandie.org" width="320" id="webView"></iframe>
+            <iframe src="" width="320" id="webView"></iframe>
         </div>
         <div class="slide-menu">
             <ul>
-                <li><a href="#" rel="/" class="home">Accueil</a></li>
-                <li><a href="#" rel="/-Nos-services,fr.html" class="services">Nos services</a></li>
-                <li><a href="#" rel="/-Annonces-jobs-logements-cours.html" class="annonces">Annonces</a></li>
-                <li><a href="#" rel="/-Les-dossiers-du-crij.html" class="dossiers">Dossiers do CRIJ</a></li>
-                <li><a href="#" rel="/-NEWS.html" class="news">News</a></li>
-                <li><a href="#" rel="/-Crij-TV.html" class="tv">Crij TV</a></li>
-                <li><a href="#" rel="/-Podcasts.html" class="podcasts">Podcasts</a></li>
-                <li><a href="#" rel="/-Projets-de-jeunes.html" class="projets">Projets de jeunes</a></li>
+                <li class="blue"><a href="#" rel="/-Nos-services,fr.html" class="services"><span>Nos services</span></span></a></li>
+                <li class="gray"><a href="#" rel="/-Annonces-jobs-logements-cours.html" class="annonces "><span>Annonces</span></a></li>
+                <li class="gray"><a href="#" rel="/-Les-dossiers-du-crij.html" class="dossiers"><span>Dossiers do CRIJ</span></a></li>
+                <li class="gray"><a href="#" rel="/-NEWS.html" class="news "><span>News</span></a></li>
+                <li class="gray"><a href="#" rel="/-Crij-TV.html" class="tv "><span>Crij TV</span></a></li>
+                <li class="gray"><a href="#" rel="/-Podcasts.html" class="podcasts "><span>Podcasts</span></a></li>
+                <li class="gray"><a href="#" rel="/-Projets-de-jeunes.html" class="projets "><span>Projets de jeunes</span></a></li>
+                <li class="blue-black"><a href="#" rel="/-Reseau-Information-Jeunesse.html" class="decouvrez"><span>découvrez les pij et big en haute-normandie</span></a></li>
+                <li class="blue-black"><a href="#" rel="/Qui-sommes-nous-.html" class="qui-sommes "><span>qui sommes-nous ?</span></a></li>
+                <li class="blue-black"><a href="#" rel="/contact" class="contact"><span>contact</span></a></li>
+                <li class="blue-black"><a href="#" rel="/Nous-trouver.html?review=true" class="nous-trouver"><span>nous trouver</span></a></li>
+                <li class="blue-black"><a href="#" rel="/-SERVICES-AUX-PROFESSIONNELS.html" class="sep"><span>services eux professionnels</span></a></li>
+                <li class="blue-black"><a href="#" rel="/Mentions-Legales.html" class="wimage"><span>mentions légales</span></a></li>
             </ul>
         </div>
     </div>

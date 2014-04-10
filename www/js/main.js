@@ -17,10 +17,56 @@ var app = {
 
         $('.slide-menu').css({
             width: app.devWidth + 'px',
-            height: app.devHeight - barHeight + 'px',
+            minHeight: app.devHeight + 'px',
             left: -1 * app.devWidth + 'px',
             top: barHeight + 'px'
         });
+
+        $('.slide-menu ul li a span').each(function () {
+            if ($(this).height() > 14) {
+                $(this).closest('a').css({
+                    paddingTop: '9px'
+                });
+            }
+        });
+
+        $('#search').hide();
+
+        $('#refreshIframe').on('click tap', function(){
+            $('#webView').attr('src', $('#webView').attr('src'));
+        });
+
+        $('#closeSearch').hide();
+
+        $('#findToggler').click(function() {
+            $('#logo').hide();
+            $(this).hide();
+            $('#search').show();
+            $('#closeSearch').show();
+            $('#refreshIframe').hide();
+        });
+
+        $('#closeSearch').click(function(){
+            $('#logo').show();
+            $('#search').hide();
+            $('#refreshIframe').show();
+            $('#findToggler').show();
+            $('#closeSearch').hide();
+        });
+
+
+        $('#submitSearch').click(function(){
+            if ($('#searchQuery').val() !== '') {
+                $('#webView').attr('src', 'http://crij-haute-normandie.org/search/index/index?search=' + $('#searchQuery').val());
+                app.closeMenu();
+            }
+        });
+
+        $('#Accueil').click(function(){
+            $('#webView').attr('src', 'http://crij-haute-normandie.org');
+            app.closeMenu();
+        });
+
 
 //        console.log(width);
     },
@@ -44,6 +90,18 @@ var app = {
         });
     },
 
+    closeMenu: function () {
+        var currentPosition = parseInt($('.slide-menu').css("left"));
+
+        if (currentPosition == 0) {
+            $('.slide-menu').animate({
+                left: "-=" + app.devWidth + 'px'
+            }, 100);
+        }
+
+    },
+
+
     menuController: function () {
         var buttons = $('.slide-menu li a');
         var domain = 'http://crij-haute-normandie.org';
@@ -61,6 +119,7 @@ var app = {
             });
         });
     },
+
 
     findByName: function() {
         console.log('findByName');
@@ -87,6 +146,7 @@ var app = {
 
 $(function(){
     app.initialize();
+    $('#webView').attr('src', 'http://crij-haute-normandie.org');
 
     $(window).on('swipe', function(){
         $('#menuToggler').click();

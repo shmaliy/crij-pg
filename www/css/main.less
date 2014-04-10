@@ -5,6 +5,21 @@ html, body {
   width: 100%;
 }
 
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+  *zoom:1;
+}
+
+
+
 .wrapper {
   position: fixed;
   .bar {
@@ -68,51 +83,183 @@ html, body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05659f', endColorstr='#014b7a',GradientType=0 ); /* IE6-8 */
 
     ul {
-      margin: 25px 15px 15px 20px;
+      margin: 0;
       padding: 0;
       list-style: none;
       li {
-        height: 37px;
-        margin-bottom: 3px;
+        height: 47px;
+        margin-bottom: 0px;
 
         a {
           display: block;
           height: 33px;
-          padding-left: 55px;
+          padding-left: 77px;
           color: #fff;
           font-family: tahoma, arial;
-          font-size: 20px;
+          font-size: 10px;
+          font-weight: bold;
+          text-transform: uppercase;
           text-decoration: none;
-          padding-top: 4px;
-        }
-        .home {
-          background: url('../img/ic_qui_som.png') top left no-repeat;
-        }
-        .services {
-          background: url('../img/ic_services.png') top left no-repeat;
-        }
-        .annonces {
-          background: url('../img/ic_announces.png') top left no-repeat;
-        }
-        .dossiers {
-          background: url('../img/ic_docciers.png') top left no-repeat;
-        }
-        .news {
-          background: url('../img/ic_news.png') top left no-repeat;
-        }
-        .tv {
-          background: url('../img/ic_tv.png') top left no-repeat;
-        }
-        .podcasts {
-          background: url('../img/ic_podcasts.png') top left no-repeat;
-        }
-        .projets {
-          background: url('../img/ic_proj_jeun.png') top left no-repeat;
+          padding-top: 16px;
+          background-position: left 20px top 6px;
+          background-repeat: no-repeat;
+
         }
 
+        .services {
+          background-image: url('../img/ic_services.png');
+        }
+        .annonces {
+          background-image: url('../img/ic_announces.png');
+        }
+        .dossiers {
+          background-image: url('../img/ic_docciers.png');
+        }
+        .news {
+          background-image: url('../img/ic_news.png');
+        }
+        .tv {
+          background-image: url('../img/ic_tv.png');
+        }
+        .podcasts {
+          background-image: url('../img/ic_podcasts.png');
+        }
+        .projets {
+          background-image: url('../img/ic_proj_jeun.png');
+        }
+
+        .decouvrez {
+          background-image: url('../img/ic_decovr.png');
+        }
+
+        .qui-sommes {
+          background-image: url('../img/ic_qui_som.png');
+        }
+        .contact {
+          background-image: url('../img/ic_contact.png');
+        }
+        .nous-trouver {
+          background-image: url('../img/ic_nous_trov.png');
+        }
+        .sep {
+          background-image: url('../img/ic_service_prof.png');
+        }
+        .wimage {
+          padding: 0;
+          padding-top: 14px;
+          text-align: center;
+        }
+
+      }
+
+      .search {
+        background: #086199;
+        border-bottom: 1px solid #004672;
+
+      }
+      .blue {
+        background: #086199;
+        border-bottom: 1px solid #004672;
+        a {
+          color: #fff;
+        }
+      }
+      .gray {
+        background: #e9e8ed;
+        border-bottom: 1px solid #cdcdcd;
+        a {
+          color: #086199;
+        }
+
+        &:last-of-type {
+          border-bottom: 1px solid #000116;
+        }
+      }
+      .blue-black {
+        background: #002949;
+        border-bottom: 1px solid #000116;
+        a {
+          color: #fff;
+        }
       }
     }
 
   }
 
+}
+
+#refreshIframe {
+  height: 43px;
+  position: absolute;
+  width: 25px;
+  background: url('../img/refresh.png') left top 10px no-repeat;
+  top: 0;
+  right: 15px;
+  display: block;
+}
+
+#closeSearch {
+  height: 43px;
+  position: absolute;
+  width: 24px;
+  background: url('../img/close.png') left top 10px no-repeat;
+  top: 0;
+  right: 15px;
+  display: block;
+}
+
+
+#findToggler {
+  height: 43px;
+  position: absolute;
+  width: 24px;
+  background: url('../img/find.png') left top 10px no-repeat;
+  top: 0;
+  right: 60px;
+  display: block;
+}
+
+#search {
+  width: 60%;
+  margin-left: 55px;
+  padding-top: 4px;
+  .string {
+    float: left;
+    input {
+      border:none;
+      background: #086199;
+      height: 34px;
+      color: #fff;
+      border-bottom: 1px solid #0b9df9;
+    }
+  }
+  .button {
+    float: left;
+    background: rgb(8,97,153); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA4NjE5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDI5NDkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(8,97,153,1) 0%, rgba(0,41,73,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(8,97,153,1)), color-stop(100%,rgba(0,41,73,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(8,97,153,1) 0%,rgba(0,41,73,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(8,97,153,1) 0%,rgba(0,41,73,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(8,97,153,1) 0%,rgba(0,41,73,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(8,97,153,1) 0%,rgba(0,41,73,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#086199', endColorstr='#002949',GradientType=0 ); /* IE6-8 */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    height: 34px;
+    width: 34px;
+
+    margin-left: 3px;
+    a {
+      display: block;
+
+      background: url('../img/find.png') left 5px top 5px no-repeat;
+      height: 34px;
+      width: 34px;
+
+    }
+  }
 }
