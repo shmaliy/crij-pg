@@ -17,10 +17,10 @@
         Hardeep Shoker
     </author>
 
-    <gap:splash src="assets/www/img/Now_Loading.png" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="assets/www/img/Now_Loading.png" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="assets/www/img/Now_Loading.png" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="assets/www/img/Now_Loading.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="www/splashScreensFolder/splashscreen_main-568h@2x.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="www/splashScreensFolder/splashscreen_main-568h@2x.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="www/splashScreensFolder/splashscreen_main-568h@2x.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="www/splashScreensFolder/splashscreen_main-568h@2x.png" gap:platform="android" gap:density="xhdpi" />
 
 </widget>
 

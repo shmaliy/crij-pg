@@ -47,7 +47,7 @@
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="98" selection-start="916" selection-end="916" vertical-scroll-proportion="0.45360824" vertical-offset="0" max-vertical-offset="873">
+            <state line="22" column="74" selection-start="961" selection-end="961" vertical-scroll-proportion="0.45360824" vertical-offset="0" max-vertical-offset="873">
               <folding />
             </state>
           </provider>
@@ -333,7 +333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="98" selection-start="916" selection-end="916" vertical-scroll-proportion="0.45360824" vertical-offset="0" max-vertical-offset="873">
+        <state line="22" column="74" selection-start="961" selection-end="961" vertical-scroll-proportion="0.45360824" vertical-offset="0" max-vertical-offset="873">
           <folding />
         </state>
       </provider>
