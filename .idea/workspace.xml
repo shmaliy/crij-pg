@@ -47,19 +47,28 @@
       <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="74" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="22" column="74" selection-start="0" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="1" selection-start="292" selection-end="292" vertical-scroll-proportion="0.5569307" vertical-offset="0" max-vertical-offset="4932">
+            <state line="25" column="1" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.653846" vertical-offset="0" max-vertical-offset="4932">
               <folding>
                 <element signature="e#7596#8259#2" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.57731956" vertical-offset="0" max-vertical-offset="873">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,10 +87,10 @@
         <option value="$PROJECT_DIR$/css/main.less" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/js/main.js" />
         <option value="$PROJECT_DIR$/www/css/main.less" />
+        <option value="$PROJECT_DIR$/www/config.xml" />
       </list>
     </option>
   </component>
@@ -301,23 +310,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="94" selection-start="376" selection-end="376" vertical-scroll-proportion="0.06185567" vertical-offset="0" max-vertical-offset="873">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="26" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="1044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="74" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
@@ -331,10 +326,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="1" selection-start="292" selection-end="292" vertical-scroll-proportion="0.5569307" vertical-offset="0" max-vertical-offset="4932">
+        <state line="25" column="1" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.653846" vertical-offset="0" max-vertical-offset="4932">
           <folding>
             <element signature="e#7596#8259#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="74" selection-start="0" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.57731956" vertical-offset="0" max-vertical-offset="873">
+          <folding />
         </state>
       </provider>
     </entry>
