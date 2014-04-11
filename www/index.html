@@ -9,24 +9,26 @@
 </head>
 <body>
     <div class="wrapper" id="all">
-        <div class="bar">
-            <a href="#" id="menuToggler" class="menu-icon collapsed"></a>
-            <div id="logo">
-                <div class="logo" id="Accueil"></div>
-            </div>
-            <div id="search" class="clearfix">
-                <div class="string">
-                    <input type="text" maxlength="60" id="searchQuery">
+        <div class="bar-container">
+            <div class="bar">
+                <a href="#" id="menuToggler" class="menu-icon collapsed"></a>
+                <div id="logo">
+                    <div class="logo" id="Accueil"></div>
                 </div>
-                <div class="button">
-                    <a href="#" id="submitSearch"></a>
+                <div id="search" class="clearfix">
+                    <div class="string">
+                        <input type="text" maxlength="60" id="searchQuery">
+                    </div>
+                    <div class="button">
+                        <a href="#" id="submitSearch"></a>
+                    </div>
                 </div>
+
+                <a href="#" id="findToggler"></a>
+                <a href="#" id="refreshIframe"></a>
+                <a href="#" id="closeSearch"></a>
+
             </div>
-
-            <a href="#" id="findToggler"></a>
-            <a href="#" id="refreshIframe"></a>
-            <a href="#" id="closeSearch"></a>
-
         </div>
         <div class="content">
             <iframe src="" width="320" id="webView"></iframe>
