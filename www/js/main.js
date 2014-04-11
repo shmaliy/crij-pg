@@ -149,7 +149,7 @@ $(function(){
     app.initialize();
     $('#webView').attr('src', 'http://crij-haute-normandie.org');
 
-    $(document, '.bar, .slide-menu').on('swipeleft swiperight', function(){
+    $(document, '.bar, .slide-menu').on('swipe', function(){
         $('#menuToggler').click();
     });
 
