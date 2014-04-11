@@ -19,16 +19,8 @@ body {
 .clearfix {
   *zoom: 1;
 }
-.wrapper .bar-container {
+.wrapper .bar {
   position: fixed;
-  top: 0;
-  z-index: 1000000;
-  display: block;
-  width: 100%;
-  height: 43px;
-}
-.wrapper .bar-container .bar {
-  position: relative;
   width: 100%;
   height: 43px;
   background: #0a77ba;
@@ -59,7 +51,7 @@ body {
   /* IE6-8 */
 
 }
-.wrapper .bar-container .bar .menu-icon {
+.wrapper .bar .menu-icon {
   position: absolute;
   left: 6px;
   width: 32px;
@@ -68,7 +60,7 @@ body {
   margin: 6px 0 0 0;
   background: url(../img/ic_menu.png);
 }
-.wrapper .bar-container .bar .logo {
+.wrapper .bar .logo {
   height: 43px;
   width: 37px;
   margin: 0 auto;
