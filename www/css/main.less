@@ -1,8 +1,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
+  height: auto;
+  display: block;
 }
 
 .clearfix:before,
@@ -21,7 +23,6 @@ html, body {
 
 
 .wrapper {
-  position: fixed;
   .bar {
     position: relative;
     width: 100%;
@@ -220,9 +221,12 @@ html, body {
 }
 
 #search {
-  width: 60%;
+  width: 70%;
   margin-left: 55px;
   padding-top: 4px;
+  height: 39px;
+  overflow: hidden;
+
   .string {
     float: left;
     input {

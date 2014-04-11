@@ -30,6 +30,7 @@ var app = {
             }
         });
 
+
         $('#search').hide();
 
         $('#refreshIframe').on('click tap', function(){
