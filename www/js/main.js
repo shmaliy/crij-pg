@@ -15,20 +15,6 @@ var app = {
                 height: iframeHeight + 'px'
         });
 
-        $('#swipeCatcher').css({
-            display: 'block',
-            position: 'absolute',
-            zIndex: '100',
-            width: '20px',
-            height: iframeHeight + 'px',
-            top: barHeight + 'px'
-
-        }).swipe(function(e){
-                console.log(e.target);
-                $('#menuToggler').click();
-            });
-
-
         $('.slide-menu').css({
             width: app.devWidth + 'px',
             minHeight: app.devHeight + 'px',

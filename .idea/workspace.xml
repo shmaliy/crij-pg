@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/www/js/main.js" line="65" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/main.js" line="51" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d75358-877a-4f22-a6a5-c42a2cbfb9d7" name="Default" comment="" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="25" selection-start="3109" selection-end="3121" vertical-scroll-proportion="-26.185184" vertical-offset="247" max-vertical-offset="1098">
+            <state line="53" column="0" selection-start="3096" selection-end="3096" vertical-scroll-proportion="-25.518518" vertical-offset="265" max-vertical-offset="1098">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="44" selection-start="869" selection-end="869" vertical-scroll-proportion="0.556701" vertical-offset="108" max-vertical-offset="3546">
+            <state line="17" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="-2.4226804" vertical-offset="2421" max-vertical-offset="3294">
               <folding />
             </state>
           </provider>
@@ -359,13 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="3109" selection-end="3121" vertical-scroll-proportion="-26.185184" vertical-offset="247" max-vertical-offset="1098">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="19" selection-start="320" selection-end="320" vertical-scroll-proportion="-2.0769231" vertical-offset="378" max-vertical-offset="4986">
@@ -376,9 +369,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="3096" selection-end="3096" vertical-scroll-proportion="-25.518518" vertical-offset="265" max-vertical-offset="1098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="44" selection-start="869" selection-end="869" vertical-scroll-proportion="0.556701" vertical-offset="108" max-vertical-offset="3546">
+        <state line="17" column="0" selection-start="397" selection-end="397" vertical-scroll-proportion="-2.4226804" vertical-offset="2421" max-vertical-offset="3294">
           <folding />
         </state>
       </provider>
