@@ -56,9 +56,9 @@
       <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="4" selection-start="313" selection-end="313" vertical-scroll-proportion="0.5792079" vertical-offset="0" max-vertical-offset="5022">
+            <state line="26" column="19" selection-start="328" selection-end="328" vertical-scroll-proportion="0.17821783" vertical-offset="324" max-vertical-offset="5112">
               <folding>
-                <element signature="e#7719#8382#2" expanded="true" />
+                <element signature="e#7824#8487#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -340,9 +340,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="313" selection-end="313" vertical-scroll-proportion="0.5792079" vertical-offset="0" max-vertical-offset="5022">
+        <state line="26" column="19" selection-start="328" selection-end="328" vertical-scroll-proportion="0.17821783" vertical-offset="324" max-vertical-offset="5112">
           <folding>
-            <element signature="e#7719#8382#2" expanded="true" />
+            <element signature="e#7824#8487#2" expanded="true" />
           </folding>
         </state>
       </provider>

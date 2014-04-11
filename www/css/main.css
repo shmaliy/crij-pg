@@ -19,6 +19,14 @@ body {
 .clearfix {
   *zoom: 1;
 }
+.wrapper .bar-container {
+  position: fixed;
+  top: 0;
+  z-index: 1000000;
+  display: block;
+  width: 100%;
+  height: 43px;
+}
 .wrapper .bar-container .bar {
   position: relative;
   width: 100%;
