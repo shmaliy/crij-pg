@@ -145,13 +145,26 @@ var app = {
 
 };
 
+
+function onBodyLoad() {
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+function onDeviceReady() {
+    // set your swipe threshold explicitly
+    $.event.special.swipe.horizontalDistanceThreshold = 120;
+    $(document).on("swiperight swipeleft", ".bar, .slide-menu", function() {
+        $('#menuToggler').click();
+    });
+}
+
 $(function(){
     app.initialize();
     $('#webView').attr('src', 'http://crij-haute-normandie.org');
 
-    $(document, '.bar, .slide-menu').on('swipe', function(){
-        $('#menuToggler').click();
-    });
+//    $(document, '.bar, .slide-menu').on('swipe', function(){
+//        $('#menuToggler').click();
+//    });
 
 });
 
