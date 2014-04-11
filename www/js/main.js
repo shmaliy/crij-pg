@@ -162,7 +162,7 @@ function onDeviceReady() {
 
 $(function(){
     app.initialize();
-    $('#webView').attr('src', 'about:blank');
+    setTimeout($('#webView').attr('src', 'http://crij-haute-normandie.org'), 1000);
 
     $(document, '.bar, .slide-menu').swipe(function(e){
         console.log(e.target);
