@@ -162,9 +162,9 @@ $(function(){
     app.initialize();
     $('#webView').attr('src', 'http://crij-haute-normandie.org');
 
-//    $(document, '.bar, .slide-menu').on('swipe', function(){
-//        $('#menuToggler').click();
-//    });
+    $(document, '.bar, .slide-menu').swipe(function(){
+        $('#menuToggler').click();
+    });
 
 });
 
