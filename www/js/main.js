@@ -23,7 +23,7 @@ var app = {
             height: iframeHeight + 'px',
             top: barHeight + 'px'
 
-        }).click(function(e){
+        }).swipe(function(e){
                 console.log(e.target);
                 $('#menuToggler').click();
             });
