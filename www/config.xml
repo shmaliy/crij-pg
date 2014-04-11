@@ -5,13 +5,13 @@
         versionCode = "10"
         version     = "1.1.0">
 
-    <name>Employee Directory</name>
+    <name>CRIJ Haute Normandie</name>
 
     <description>
-        A simple employee directory application
+        Tablet application of your favorite site
     </description>
 
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
+    <author href="http://grenade-sparks.com" email="maximes@grenade-sparks.com">
         Christophe Coenraets
     </author>
 
