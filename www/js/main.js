@@ -15,6 +15,20 @@ var app = {
                 height: iframeHeight + 'px'
         });
 
+        $('#swipeCatcher').css({
+            display: 'block',
+            position: 'absolute',
+            zIndex: '100',
+            width: '10px',
+            height: iframeHeight + 'px',
+            top: barHeight + 'px'
+
+        }).swipe(function(e){
+                console.log(e.target);
+                $('#menuToggler').click();
+            });
+
+
         $('.slide-menu').css({
             width: app.devWidth + 'px',
             minHeight: app.devHeight + 'px',
@@ -167,7 +181,7 @@ $(function(){
         $('#webView').attr('src', 'http://crij-haute-normandie.org');
     }, 100);
 
-    $(document, '.bar, .slide-menu, #logo').swipe(function(e){
+    $(document, '.bar, .slide-menu, #logo, #search').swipe(function(e){
         console.log(e.target);
         $('#menuToggler').click();
     });
