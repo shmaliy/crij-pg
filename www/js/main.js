@@ -172,7 +172,9 @@ $(function(){
 //    });
 
     $('#swipeCatcher').touchwipe({
-        wipeRight: function() { alert("left"); },
+        wipeRight: function() {
+            $('#menuToggler').click();
+        },
         min_move_x: 20,
         min_move_y: 10000,
         preventDefaultEvents: true
