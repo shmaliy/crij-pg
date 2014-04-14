@@ -180,6 +180,15 @@ $(function(){
         preventDefaultEvents: true
     });
 
+    $('.swipe-right').touchwipe({
+        wipeLeft: function() {
+            $('#menuToggler').click();
+        },
+        min_move_x: 20,
+        min_move_y: 10000,
+        preventDefaultEvents: true
+    });
+
 //    $('.bar, .slide-menu, #logo, #search, #webView').swipe(function(e){
 //       // console.log(e.target);
 //        $('#menuToggler').click();
