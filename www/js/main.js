@@ -163,7 +163,7 @@ $(function(){
 //    });
 
     $('.bar, .slide-menu, #logo, #search, #webView').touchwipe({
-        wipeLeft: function() { alert("left"); },
+        wipeRight: function() { alert("left"); },
         min_move_x: 20,
         min_move_y: 10000,
         preventDefaultEvents: true
