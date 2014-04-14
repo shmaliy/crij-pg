@@ -285,3 +285,9 @@ body {
   height: 34px;
   width: 34px;
 }
+.loader {
+  display: block;
+  width: 66px;
+  height: 66px;
+  margin: 100px auto;
+}

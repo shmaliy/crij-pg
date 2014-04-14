@@ -162,10 +162,10 @@ var app = {
 
 $(function(){
     app.initialize();
-    $('#webView').attr('src', 'about:blank');
+    $('#webView').attr('src', 'loading.html');
     setTimeout(function(){
         $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
-    }, 100);
+    }, 1000);
 
     $('#swipeCatcher').touchwipe({
         wipeRight: function() {
