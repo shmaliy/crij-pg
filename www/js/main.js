@@ -162,7 +162,7 @@ $(function(){
 //        $('#menuToggler').click();
 //    });
 
-    $('.bar, .slide-menu, #logo, #search, #webView').touchwipe({
+    $(window).touchwipe({
         wipeRight: function() { alert("left"); },
         min_move_x: 20,
         min_move_y: 10000,
