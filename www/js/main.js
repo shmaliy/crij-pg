@@ -23,9 +23,10 @@ var app = {
         });
 
         $('.slide-menu ul li a span').each(function () {
-            if ($(this).height() > 14) {
+            if ($(this).height() > 18) {
                 $(this).closest('a').css({
-                    paddingTop: '9px'
+                    paddingTop: '5px',
+                    paddingBottom: '5px'
                 });
             }
         });
