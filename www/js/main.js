@@ -71,12 +71,12 @@ var app = {
         });
 
         $('#swipeCatcher').css({
-            outline: '1px solid red',
             position: 'absolute',
-            width: '10px',
+            width: '20px',
             height: app.devHeight + 'px',
             top: 0,
-            left: 0
+            left: 0,
+            zIndex: 1000000000
         });
 
 
