@@ -164,11 +164,15 @@ $(function(){
     app.initialize();
     $('#webView').attr('src', 'about:blank');
     setTimeout(function(){
-        $('#webView').attr('src', 'http://crij-haute-normandie.org');
+        $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
     }, 100);
 
-    $('.bar, .slide-menu, #logo, #search').swipe(function(e){
-        console.log(e.target);
+    $(window).swipe(function(e) {
+        $('#menuToggler').click();
+    });
+
+    $('.bar, .slide-menu, #logo, #search, #webView').swipe(function(e){
+       // console.log(e.target);
         $('#menuToggler').click();
     });
 
