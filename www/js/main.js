@@ -148,17 +148,7 @@ var app = {
 };
 
 
-function onBodyLoad() {
-    document.addEventListener("deviceready", onDeviceReady, false);
-}
 
-function onDeviceReady() {
-    // set your swipe threshold explicitly
-    $.event.special.swipe.horizontalDistanceThreshold = 120;
-    $(document).on("swiperight swipeleft", ".bar, .slide-menu", function() {
-        $('#menuToggler').click();
-    });
-}
 
 $(function(){
     app.initialize();
@@ -168,14 +158,21 @@ $(function(){
     }, 100);
 
 
-    $(window).swipe(function(e) {
-        $('#menuToggler').click();
+//    $(window).swipe(function(e) {
+//        $('#menuToggler').click();
+//    });
+
+    $('.bar, .slide-menu, #logo, #search, #webView').touchwipe({
+        wipeLeft: function() { alert("left"); },
+        min_move_x: 20,
+        min_move_y: 10000,
+        preventDefaultEvents: true
     });
 
-    $('.bar, .slide-menu, #logo, #search, #webView').swipe(function(e){
-       // console.log(e.target);
-        $('#menuToggler').click();
-    });
+//    $('.bar, .slide-menu, #logo, #search, #webView').swipe(function(e){
+//       // console.log(e.target);
+//        $('#menuToggler').click();
+//    });
 
 });
 

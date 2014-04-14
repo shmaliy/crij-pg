@@ -29,7 +29,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="36" selection-start="125" selection-end="125" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1116">
+            <state line="11" column="5" selection-start="425" selection-end="425" vertical-scroll-proportion="-6.185185" vertical-offset="31" max-vertical-offset="1134">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cordova-1.7.0.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/cordova-1.7.0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3294" max-vertical-offset="89586">
+              <folding>
+                <marker date="1397472418892" expanded="true" signature="126912:126996" placeholder="CREATE TABLE..storage..." />
+                <marker date="1397472418892" expanded="true" signature="127034:127055" placeholder="SELECT * FRO..storage..." />
+                <marker date="1397472418892" expanded="true" signature="127697:127781" placeholder="CREATE TABLE..storage..." />
+                <marker date="1397472418892" expanded="true" signature="127821:127864" placeholder="REPLACE INTO..." />
+                <marker date="1397472418892" expanded="true" signature="128178:128262" placeholder="CREATE TABLE..storage..." />
+                <marker date="1397472418892" expanded="true" signature="128302:128332" placeholder="DELETE FROM ..." />
+                <marker date="1397472418892" expanded="true" signature="128554:128638" placeholder="CREATE TABLE..storage..." />
+                <marker date="1397472418892" expanded="true" signature="128678:128697" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="174" column="9" selection-start="4453" selection-end="4602" vertical-scroll-proportion="0.91752577" vertical-offset="2331" max-vertical-offset="3330">
               <folding />
             </state>
           </provider>
@@ -38,16 +65,7 @@
       <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="4178" max-vertical-offset="4986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="4" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.6494845" vertical-offset="2511" max-vertical-offset="3384">
+            <state line="27" column="19" selection-start="320" selection-end="320" vertical-scroll-proportion="135.81482" vertical-offset="4153" max-vertical-offset="4986">
               <folding />
             </state>
           </provider>
@@ -378,20 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="4178" max-vertical-offset="4986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="125" selection-end="125" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="74" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -399,9 +403,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="19" selection-start="320" selection-end="320" vertical-scroll-proportion="135.81482" vertical-offset="4153" max-vertical-offset="4986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/cordova-1.7.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="3294" max-vertical-offset="89586">
+          <folding>
+            <marker date="1397472418892" expanded="true" signature="126912:126996" placeholder="CREATE TABLE..storage..." />
+            <marker date="1397472418892" expanded="true" signature="127034:127055" placeholder="SELECT * FRO..storage..." />
+            <marker date="1397472418892" expanded="true" signature="127697:127781" placeholder="CREATE TABLE..storage..." />
+            <marker date="1397472418892" expanded="true" signature="127821:127864" placeholder="REPLACE INTO..." />
+            <marker date="1397472418892" expanded="true" signature="128178:128262" placeholder="CREATE TABLE..storage..." />
+            <marker date="1397472418892" expanded="true" signature="128302:128332" placeholder="DELETE FROM ..." />
+            <marker date="1397472418892" expanded="true" signature="128554:128638" placeholder="CREATE TABLE..storage..." />
+            <marker date="1397472418892" expanded="true" signature="128678:128697" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="425" selection-end="425" vertical-scroll-proportion="-6.185185" vertical-offset="31" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="4" selection-start="4539" selection-end="4539" vertical-scroll-proportion="0.6494845" vertical-offset="2511" max-vertical-offset="3384">
+        <state line="174" column="9" selection-start="4453" selection-end="4602" vertical-scroll-proportion="0.91752577" vertical-offset="2331" max-vertical-offset="3330">
           <folding />
         </state>
       </provider>
