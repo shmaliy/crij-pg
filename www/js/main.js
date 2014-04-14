@@ -70,6 +70,15 @@ var app = {
             app.closeMenu();
         });
 
+        $('#swipeCatcher').css({
+            outline: '1px solid red',
+            position: 'absolute',
+            width: '10px',
+            height: app.devHeight + 'px',
+            top: 0,
+            left: 0
+        });
+
 
 //        console.log(width);
     },
@@ -162,7 +171,7 @@ $(function(){
 //        $('#menuToggler').click();
 //    });
 
-    $(window).touchwipe({
+    $('#swipeCatcher').touchwipe({
         wipeRight: function() { alert("left"); },
         min_move_x: 20,
         min_move_y: 10000,
