@@ -129,7 +129,7 @@ var app = {
                 var src = domain + $(this).attr('rel');
 
                 $('#webView').attr('src', src);
-                app.observeSwipe();
+                app.initialize();
                 $('#menuToggler').click();
 
 
