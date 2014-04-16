@@ -19,6 +19,16 @@ body {
 .clearfix {
   *zoom: 1;
 }
+#debug {
+  position: absolute;
+  top: 45px;
+  width: 300px;
+  height: 100px;
+  border: 1px dashed #000;
+  background: #ccc;
+  z-index: 10000000000;
+  display: none;
+}
 .wrapper .bar {
   position: fixed;
   width: 100%;

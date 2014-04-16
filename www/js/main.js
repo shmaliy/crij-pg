@@ -2,6 +2,7 @@ var app = {
 
     devWidth : 0,
     devHeight: 0,
+    debug: false,
 
     displayAjust: function () {
         app.devHeight = $('html').height();
@@ -21,6 +22,8 @@ var app = {
             left: -1 * app.devWidth + 'px',
             top: barHeight + 'px'
         });
+
+        $('#debug').append('slide-menu position ' + -1 * app.devWidth + 'px' + '<br />');
 
         $('.slide-menu ul li a span').each(function () {
             if ($(this).height() > 18) {
@@ -184,6 +187,11 @@ var app = {
 
 $(function(){
     app.initialize();
+
+    if (app.debug == true) {
+        $('#debug').show();
+    }
+
     $('#webView').attr('src', 'loading.html');
     setTimeout(function(){
         $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
