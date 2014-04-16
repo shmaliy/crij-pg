@@ -8,6 +8,19 @@
     <script src="js/storage/memory-store.js"></script>
     <script src="js/jquery.touchwipe.1.1.1.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        // Wait for Cordova to load
+        //
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        // Cordova is ready
+        //
+        function onDeviceReady() {
+            navigator.splashscreen.show();
+        }
+    </script>
+
+
 </head>
 <body>
     <div id="swipeCatcher"></div>
