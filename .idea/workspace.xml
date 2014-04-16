@@ -29,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="9" selection-start="673" selection-end="673" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="1386">
+            <state line="19" column="9" selection-start="673" selection-end="673" vertical-scroll-proportion="-8.185185" vertical-offset="121" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="21" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.0" vertical-offset="2655" max-vertical-offset="3564">
+            <state line="80" column="33" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.72164947" vertical-offset="810" max-vertical-offset="3582">
               <folding />
             </state>
           </provider>
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.57731956" vertical-offset="0" max-vertical-offset="873">
+            <state line="28" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -401,23 +401,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+    <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="21" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.0" vertical-offset="2655" max-vertical-offset="3564">
+        <state line="28" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="673" selection-end="673" vertical-scroll-proportion="-12.666667" vertical-offset="0" max-vertical-offset="1386">
+        <state line="19" column="9" selection-start="673" selection-end="673" vertical-scroll-proportion="-8.185185" vertical-offset="121" max-vertical-offset="1386">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/config.xml">
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="915" selection-end="915" vertical-scroll-proportion="0.57731956" vertical-offset="0" max-vertical-offset="873">
+        <state line="80" column="33" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.72164947" vertical-offset="810" max-vertical-offset="3582">
           <folding />
         </state>
       </provider>
