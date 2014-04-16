@@ -77,8 +77,7 @@ var app = {
             height: app.devHeight + 'px',
             top: 0,
             left: 0,
-            zIndex: 1000000000,
-            background: '#ff6600'
+            zIndex: 1000000000
         });
 
 
@@ -127,6 +126,7 @@ var app = {
                 var src = domain + $(this).attr('rel');
 
                 $('#webView').attr('src', src);
+                app.observeSwipe();
                 $('#menuToggler').click();
 
 
@@ -148,12 +148,33 @@ var app = {
         });
     },
 
+    observeSwipe: function () {
+        $('#swipeCatcher').touchwipe({
+            wipeRight: function() {
+                $('#menuToggler').click();
+            },
+            min_move_x: 20,
+            min_move_y: 10000,
+            preventDefaultEvents: true
+        });
+
+        $('.swipe-right').touchwipe({
+            wipeLeft: function() {
+                $('#menuToggler').click();
+            },
+            min_move_x: 20,
+            min_move_y: 10000,
+            preventDefaultEvents: true
+        });
+    },
+
     initialize: function() {
         this.store = new MemoryStore();
         $('.search-key').on('keyup', $.proxy(this.findByName, this));
         app.displayAjust();
         app.menuToggle();
         app.menuController();
+        app.observeSwipe();
     }
 
 };
@@ -170,23 +191,7 @@ $(function(){
 
     }, 1000);
 
-    $('#swipeCatcher').touchwipe({
-        wipeRight: function() {
-            $('#menuToggler').click();
-        },
-        min_move_x: 20,
-        min_move_y: 10000,
-        preventDefaultEvents: true
-    });
 
-    $('.swipe-right').touchwipe({
-        wipeLeft: function() {
-            $('#menuToggler').click();
-        },
-        min_move_x: 20,
-        min_move_y: 10000,
-        preventDefaultEvents: true
-    });
 
 });
 
