@@ -192,16 +192,16 @@ $(function(){
         $('#debug').show();
     }
 
+    $('#webView').onload(function () {
+        alert('sdsd');
+    });
+
     $('#webView').attr('src', 'loading.html');
     setTimeout(function(){
         $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
 //        navigator.splashscreen.hide();
 
     }, 1000);
-
-    $(document).on("pagebeforeload", function(){
-        $('#debug').append('new page in iframe');
-    });
 
 
 });
