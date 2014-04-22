@@ -192,9 +192,9 @@ $(function(){
         $('#debug').show();
     }
 
-    $('#webView').onload(function () {
-        alert('sdsd');
-    });
+//    $('#webView').onload(function () {
+//        alert('sdsd');
+//    });
 
     $('#webView').attr('src', 'loading.html');
     setTimeout(function(){
