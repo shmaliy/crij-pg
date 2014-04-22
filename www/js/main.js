@@ -199,6 +199,9 @@ $(function(){
 
     }, 1000);
 
+    $(document).on("pagebeforeload", function(){
+        $('#debug').append('new page in iframe');
+    });
 
 
 });
