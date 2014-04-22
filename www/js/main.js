@@ -2,7 +2,7 @@ var app = {
 
     devWidth : 0,
     devHeight: 0,
-    debug: true,
+    debug: false,
 
     displayAjust: function () {
         app.devHeight = $('html').height();
@@ -15,6 +15,11 @@ var app = {
                 width: app.devWidth + 'px',
                 height: iframeHeight + 'px'
         });
+
+        $('#loaderContainer').css({
+            width: app.devWidth + 'px',
+            height: iframeHeight + 'px'
+        }).hide();
 
         $('.slide-menu').css({
             width: app.devWidth + 'px',
@@ -182,7 +187,25 @@ var app = {
 
 };
 
+function receiveMessage(event)
+{
 
+    if (event.data == 'iframe_change') {
+        console.log('start loader');
+
+        if ($('#loaderContainer').css('display') == 'none') {
+            $('#loaderContainer').show();
+        }
+
+
+        $('#webView').load(function(){
+            console.log('hide loader');
+            $('#loaderContainer').hide();
+        });
+    }
+}
+
+addEventListener("message", receiveMessage, false);
 
 
 $(function(){
@@ -192,13 +215,25 @@ $(function(){
         $('#debug').show();
     }
 
-//    $('#webView').onload(function () {
-//        alert('sdsd');
+    $('a[target="webView"]').click(function(e){
+        console.log(e.target);
+    });
+
+
+//    $('#webView').load(function () {
+//        $('#debug').append('change pages finish<br />');
+//    });
+//
+//    $('#webView').on("unload", function () {
+//        $('#debug').append('change pages start<br />');
 //    });
 
-    $('#webView').attr('src', 'loading.html');
+    receiveMessage({data: 'iframe_change'});
+    $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
+
+
     setTimeout(function(){
-        $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
+
 //        navigator.splashscreen.hide();
 
     }, 1000);

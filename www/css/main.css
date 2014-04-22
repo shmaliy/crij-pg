@@ -82,6 +82,15 @@ body {
   width: 100%;
   position: fixed;
 }
+.wrapper .content #loaderContainer {
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 1000000;
+  background: url('../img/progressbar.gif') top left repeat-x #ffffff;
+  display: block;
+}
 .wrapper .content iframe {
   border: none;
 }
