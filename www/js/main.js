@@ -208,6 +208,18 @@ function receiveMessage(event)
 addEventListener("message", receiveMessage, false);
 
 
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
+    });
+}
+
+preload([
+    '../img/progressbar.gif'
+]);
+
 $(function(){
     app.initialize();
 
