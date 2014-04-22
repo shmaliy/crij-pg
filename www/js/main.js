@@ -195,7 +195,7 @@ $(function(){
     $('#webView').attr('src', 'loading.html');
     setTimeout(function(){
         $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
-        navigator.splashscreen.hide();
+//        navigator.splashscreen.hide();
 
     }, 1000);
 
