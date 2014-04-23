@@ -99,7 +99,8 @@ var app = {
             height: app.devHeight + 'px',
             top: 0,
             left: 0,
-            zIndex: 1000
+            zIndex: 1000000,
+            background: '#ff6600'
         });
 
 
