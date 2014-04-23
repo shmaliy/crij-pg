@@ -99,8 +99,7 @@ var app = {
             height: app.devHeight + 'px',
             top: 0,
             left: 0,
-            zIndex: 1000000,
-            background: '#ff6600'
+            zIndex: 1000000
         });
 
 
@@ -134,6 +133,7 @@ var app = {
                 left: "-=" + app.devWidth + 'px'
             }, 100);
         }
+        app.initialize();
 
     },
 
