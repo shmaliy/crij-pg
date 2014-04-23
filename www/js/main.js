@@ -217,7 +217,7 @@ function receiveMessage(event)
         $('#webView').load(function(){
 //            console.log('hide loader');
             $('#loaderContainer').fadeOut();
-            $('#swipeCatcher').focus();
+            app.observeSwipe();
         });
     }
 }
