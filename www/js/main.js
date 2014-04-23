@@ -202,7 +202,7 @@ var app = {
 };
 
 
-function receiveMessage(event, nsp)
+function receiveMessage(event)
 {
 
     if (event.data == 'iframe_change') {
@@ -217,7 +217,6 @@ function receiveMessage(event, nsp)
         $('#webView').load(function(){
 //            console.log('hide loader');
             $('#loaderContainer').fadeOut();
-            nsp.splashscreen.hide();
         });
     }
 }
