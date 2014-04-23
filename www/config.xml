@@ -24,6 +24,7 @@
 
     <gap:splash src="splashScreensFolder/splashscreen_main-568h@2x.png" />
     <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="SplashScreenDelay" value="500000" />
 
 </widget>
 
