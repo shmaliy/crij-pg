@@ -9,6 +9,20 @@ var app = {
         app.devWidth = $('html').width();
         var barHeight = $('.bar').height();
 
+
+        if (app.devWidth > 0 && app.devWidth < 640) {
+            $('#loaderContainer').addClass('progressbar320');
+        }
+
+        if (app.devWidth > 640 && app.devWidth < 900) {
+            $('#loaderContainer').addClass('progressbar640');
+        }
+
+        if (app.devWidth > 900) {
+            $('#loaderContainer').addClass('progressbar900');
+        }
+
+
         var iframeHeight = app.devHeight - barHeight;
 
         $('#webView').css({
@@ -191,7 +205,7 @@ function receiveMessage(event)
 {
 
     if (event.data == 'iframe_change') {
-        console.log('start loader');
+//        console.log('start loader');
 
         if ($('#loaderContainer').css('display') == 'none') {
             $('#loaderContainer').show();
@@ -199,7 +213,7 @@ function receiveMessage(event)
 
 
         $('#webView').load(function(){
-            console.log('hide loader');
+//            console.log('hide loader');
             $('#loaderContainer').hide();
         });
     }
@@ -228,7 +242,7 @@ $(function(){
     }
 
     $('a[target="webView"]').click(function(e){
-        console.log(e.target);
+//        console.log(e.target);
     });
 
 
