@@ -196,7 +196,7 @@ var app = {
         app.displayAjust();
         app.menuToggle();
         app.menuController();
-        app.observeSwipe();
+//        app.observeSwipe();
     }
 
 };
