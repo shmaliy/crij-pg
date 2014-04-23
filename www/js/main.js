@@ -133,7 +133,7 @@ var app = {
                 left: "-=" + app.devWidth + 'px'
             }, 100);
         }
-        app.initialize();
+//        app.initialize();
 
     },
 
@@ -197,7 +197,7 @@ var app = {
         app.displayAjust();
         app.menuToggle();
         app.menuController();
-//        app.observeSwipe();
+        app.observeSwipe();
     }
 
 };
