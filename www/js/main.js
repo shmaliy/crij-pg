@@ -201,7 +201,8 @@ var app = {
 
 };
 
-function receiveMessage(event)
+
+function receiveMessage(event, nsp)
 {
 
     if (event.data == 'iframe_change') {
@@ -209,12 +210,14 @@ function receiveMessage(event)
 
         if ($('#loaderContainer').css('display') == 'none') {
             $('#loaderContainer').fadeIn();
+
         }
 
 
         $('#webView').load(function(){
 //            console.log('hide loader');
             $('#loaderContainer').fadeOut();
+            nsp.splashscreen.hide();
         });
     }
 }
@@ -241,7 +244,7 @@ $(function(){
         $('#debug').show();
     }
 
-    receiveMessage({data: 'iframe_change'});
+    receiveMessage({data: 'iframe_change'}, navigator);
     $('#webView').attr('src', 'http://crij-haute-normandie.org/?tabapp=true');
 
 
