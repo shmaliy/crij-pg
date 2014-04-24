@@ -113,18 +113,18 @@ var app = {
 
             if (currentPosition == -1 * app.devWidth) {
 
-                $('.slide-menu').css({left: 0});
+//                $('.slide-menu').css({left: 0});
 
-//                $('.slide-menu').animate({
-//                    left: "+=" + app.devWidth + 'px'
-//                }, 100);
+                $('.slide-menu').animate({
+                    left: "+=" + app.devWidth + 'px'
+                }, 100);
             } else if (currentPosition == 0) {
 
-                $('.slide-menu').css({left: -1*app.devWidth + 'px'});
+//                $('.slide-menu').css({left: -1*app.devWidth + 'px'});
 
-//                $('.slide-menu').animate({
-//                    left: "-=" + app.devWidth + 'px'
-//                }, 100);
+                $('.slide-menu').animate({
+                    left: "-=" + app.devWidth + 'px'
+                }, 100);
             }
         });
     },
