@@ -95,19 +95,13 @@ var app = {
 
         $('#swipeCatcher').css({
             position: 'absolute',
-            width: '20px',
+            width: '30px',
             height: app.devHeight + 'px',
             top: 0,
             left: 0,
             zIndex: 1000000
         });
 
-//        $('#swipeCatcher').click(function(){
-//            $('#menuToggler').click();
-//        });
-
-
-//        console.log(width);
     },
 
     menuToggle: function () {
@@ -139,9 +133,12 @@ var app = {
         var currentPosition = parseInt($('.slide-menu').css("left"));
 
         if (currentPosition == 0) {
-            $('.slide-menu').animate({
-                left: "-=" + app.devWidth + 'px'
-            }, 100);
+
+            $('.slide-menu').css({left: -1*app.devWidth + 'px'});
+
+//            $('.slide-menu').animate({
+//                left: "-=" + app.devWidth + 'px'
+//            }, 100);
         }
 //        app.initialize();
 
@@ -159,7 +156,7 @@ var app = {
                 var src = domain + $(this).attr('rel');
 
                 $('#webView').attr('src', src);
-                $('#menuToggler').click();
+                app.closeMenu();
 
 
             });
