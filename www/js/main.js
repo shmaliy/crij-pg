@@ -2,7 +2,7 @@ var app = {
 
     devWidth : 0,
     devHeight: 0,
-    debug: false,
+    debug: true,
 
     displayAjust: function () {
         app.devHeight = $('html').height();
@@ -115,7 +115,9 @@ var app = {
             e.preventDefault();
             var currentPosition = parseInt($('.slide-menu').css("left"));
 
-            if (currentPosition <= 0) {
+            $('#debug').append(currentPosition + '<br />');
+
+            if (currentPosition < 0) {
 
                 $('.slide-menu').animate({
                     left: "+=" + app.devWidth + 'px'
