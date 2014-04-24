@@ -224,7 +224,6 @@ function receiveMessage(event)
         $('#webView').load(function(){
 //            console.log('hide loader');
             $('#loaderContainer').fadeOut();
-            app.observeSwipe();
         });
     }
 }
