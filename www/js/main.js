@@ -115,7 +115,7 @@ var app = {
             e.preventDefault();
             var currentPosition = parseInt($('.slide-menu').css("left"));
 
-            if (currentPosition < 0) {
+            if (currentPosition <= 0) {
 
                 $('.slide-menu').animate({
                     left: "+=" + app.devWidth + 'px'
