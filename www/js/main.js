@@ -58,7 +58,7 @@ var app = {
 
         $('#refreshIframe').on('click tap', function(){
             $('#webView').attr('src', $('#webView').attr('src'));
-            app.closeMenu();
+            //app.closeMenu();
 
         });
 
