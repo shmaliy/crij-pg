@@ -2,7 +2,7 @@ var app = {
 
     devWidth : 0,
     devHeight: 0,
-    debug: true,
+    debug: false,
 
     displayAjust: function () {
         app.devHeight = $('html').height();
@@ -187,14 +187,14 @@ var app = {
             preventDefaultEvents: true
         });
 
-//        $('.swipe-right').touchwipe({
-//            wipeLeft: function() {
-//                $('#menuToggler').click();
-//            },
-//            min_move_x: 20,
-//            min_move_y: 10000,
-//            preventDefaultEvents: true
-//        });
+        $('.swipe-right').touchwipe({
+            wipeLeft: function() {
+                $('#menuToggler').click();
+            },
+            min_move_x: 20,
+            min_move_y: 10000,
+            preventDefaultEvents: true
+        });
     },
 
     initialize: function() {
