@@ -102,9 +102,9 @@ var app = {
             zIndex: 1000000
         });
 
-        $('#swipeCatcher').click(function(){
-            $('#menuToggler').click();
-        });
+//        $('#swipeCatcher').click(function(){
+//            $('#menuToggler').click();
+//        });
 
 
 //        console.log(width);
