@@ -117,12 +117,12 @@ var app = {
 
             $('#debug').append(currentPosition + '<br />');
 
-            if (currentPosition < 0) {
+            if (currentPosition == -1 * app.devWidth) {
 
                 $('.slide-menu').animate({
                     left: "+=" + app.devWidth + 'px'
                 }, 100);
-            } else {
+            } else if (currentPosition == 0) {
 
                 $('.slide-menu').animate({
                     left: "-=" + app.devWidth + 'px'
