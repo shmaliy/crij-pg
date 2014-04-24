@@ -102,6 +102,10 @@ var app = {
             zIndex: 1000000
         });
 
+        $('#swipeCatcher').click(function(){
+            $('#menuToggler').click();
+        });
+
 
 //        console.log(width);
     },
@@ -149,7 +153,6 @@ var app = {
                 var src = domain + $(this).attr('rel');
 
                 $('#webView').attr('src', src);
-                app.initialize();
                 $('#menuToggler').click();
 
 
@@ -175,7 +178,6 @@ var app = {
         $('#swipeCatcher').touchwipe({
             wipeRight: function() {
                 $('#menuToggler').click();
-                alert('wipeRight');
             },
             min_move_x: 20,
             min_move_y: 10000,
@@ -185,7 +187,6 @@ var app = {
         $('.swipe-right').touchwipe({
             wipeLeft: function() {
                 $('#menuToggler').click();
-                alert('wipeLeft');
             },
             min_move_x: 20,
             min_move_y: 10000,
