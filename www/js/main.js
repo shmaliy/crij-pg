@@ -255,9 +255,7 @@ $(function(){
 
 
     setTimeout(function(){
-
-//        navigator.splashscreen.hide();
-
+        navigator.splashscreen.hide();
     }, 1000);
 
 
