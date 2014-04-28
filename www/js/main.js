@@ -61,17 +61,17 @@ var app = {
             var heightDiff = parseInt($('.slide-menu').height()) - iframeHeight;
 
             $('.slide-menu').touchwipe({
-                wipeUp: function() {
+                wipeDown: function() {
 
 
                     $('.slide-menu').css({
                         top: 'auto',
-                        bottom: '50px'
+                        bottom: '0'
                     });
 //                    $('#debug').append('wipeUp');
 
                 },
-                wipeDown: function() {
+                wipeUp: function() {
 
 
                     $('.slide-menu').css({
