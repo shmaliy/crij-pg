@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/www/js/main.js" line="74" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/main.js" line="104" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d75358-877a-4f22-a6a5-c42a2cbfb9d7" name="Default" comment="" />
@@ -35,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="16" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4950">
+            <state line="76" column="43" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.58762884" vertical-offset="855" max-vertical-offset="5490">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="0.60148513" vertical-offset="216" max-vertical-offset="5724">
+            <state line="39" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="5724">
               <folding />
             </state>
           </provider>
@@ -80,8 +80,8 @@
         <option value="$PROJECT_DIR$/www/js/cordova/cordova.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/config.xml" />
-        <option value="$PROJECT_DIR$/www/js/main.js" />
         <option value="$PROJECT_DIR$/www/css/main.less" />
+        <option value="$PROJECT_DIR$/www/js/main.js" />
       </list>
     </option>
   </component>
@@ -438,16 +438,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+    <entry file="file://$PROJECT_DIR$/www/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4950">
+        <state line="39" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="-13.5" vertical-offset="0" max-vertical-offset="5724">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/main.less">
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="17" selection-start="523" selection-end="523" vertical-scroll-proportion="0.60148513" vertical-offset="216" max-vertical-offset="5724">
+        <state line="76" column="43" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.58762884" vertical-offset="855" max-vertical-offset="5490">
           <folding />
         </state>
       </provider>
