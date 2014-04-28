@@ -63,24 +63,19 @@ var app = {
             $('.slide-menu').touchwipe({
                 wipeUp: function() {
 
-                    $('.slide-menu').animate({
-                        top: barHeight - heightDiff + 'px'
-                    }, 100);
 
-//                    $('.slide-menu').css({
-//                        top: barHeight - heightDiff + 'px'
-//                    });
+                    $('.slide-menu').css({
+                        top: barHeight - heightDiff + 'px'
+                    });
 //                    $('#debug').append('wipeUp');
 
                 },
                 wipeDown: function() {
 
-                    $('.slide-menu').animate({
-                        top: + barHeight + 'px'
-                    }, 100);
-//                    $('.slide-menu').css({
-//                        top: -1* barHeight + 'px'
-//                    });
+
+                    $('.slide-menu').css({
+                        top: -1* barHeight + 'px'
+                    });
 //                    $('#debug').append('wipeDown');
                 },
                 min_move_x: 1000000,

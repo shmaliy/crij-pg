@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/www/js/main.js" line="110" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/www/js/main.js" line="105" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08d75358-877a-4f22-a6a5-c42a2cbfb9d7" name="Default" comment="" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="29" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.30927834" vertical-offset="918" max-vertical-offset="5598">
+            <state line="78" column="47" selection-start="2185" selection-end="2185" vertical-scroll-proportion="0.556701" vertical-offset="918" max-vertical-offset="5508">
               <folding />
             </state>
           </provider>
@@ -447,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="29" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.30927834" vertical-offset="918" max-vertical-offset="5598">
+        <state line="78" column="47" selection-start="2185" selection-end="2185" vertical-scroll-proportion="0.556701" vertical-offset="918" max-vertical-offset="5508">
           <folding />
         </state>
       </provider>
