@@ -65,7 +65,8 @@ var app = {
 
 
                     $('.slide-menu').css({
-                        top: barHeight - heightDiff + 'px'
+                        top: 'auto',
+                        bottom: 0
                     });
 //                    $('#debug').append('wipeUp');
 
@@ -74,7 +75,8 @@ var app = {
 
 
                     $('.slide-menu').css({
-                        top: -1* barHeight + 'px'
+                        top: barHeight + 'px',
+                        bottom: 'auto'
                     });
 //                    $('#debug').append('wipeDown');
                 },
