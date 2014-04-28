@@ -64,7 +64,7 @@ var app = {
                 wipeUp: function() {
 
                     $('.slide-menu').animate({
-                        top: "+=" + barHeight - heightDiff + 'px'
+                        top: barHeight - heightDiff + 'px'
                     }, 100);
 
 //                    $('.slide-menu').css({
@@ -76,7 +76,7 @@ var app = {
                 wipeDown: function() {
 
                     $('.slide-menu').animate({
-                        top: "+=" + heightDiff + 'px'
+                        top: + barHeight + 'px'
                     }, 100);
 //                    $('.slide-menu').css({
 //                        top: -1* barHeight + 'px'
