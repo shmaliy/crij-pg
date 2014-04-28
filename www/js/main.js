@@ -58,7 +58,7 @@ var app = {
 
         $('#refreshIframe').on('click tap', function(){
             $('#webView').attr('src', $('#webView').attr('src'));
-            app.closeMenu();
+//            app.closeMenu();
 
         });
 
@@ -84,13 +84,13 @@ var app = {
         $('#submitSearch').click(function(){
             if ($('#searchQuery').val() !== '') {
                 $('#webView').attr('src', 'http://crij-haute-normandie.org/search/index/index?search=' + $('#searchQuery').val());
-                app.closeMenu();
+//                app.closeMenu();
             }
         });
 
         $('#Accueil').click(function(){
             $('#webView').attr('src', 'http://crij-haute-normandie.org');
-            app.closeMenu();
+//            app.closeMenu();
         });
 
         $('#swipeCatcher').css({
@@ -155,7 +155,7 @@ var app = {
                 var src = domain + $(this).attr('rel');
 
                 $('#webView').attr('src', src);
-                app.closeMenu();
+//                app.closeMenu();
 
 
             });
@@ -216,6 +216,7 @@ function receiveMessage(event)
 
         if ($('#loaderContainer').css('display') == 'none') {
             $('#loaderContainer').fadeIn();
+            app.closeMenu();
 
         }
 
