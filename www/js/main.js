@@ -125,6 +125,11 @@ var app = {
                 $('.slide-menu').animate({
                     left: "-=" + app.devWidth + 'px'
                 }, 100);
+            } else {
+                $('.slide-menu').css({
+                    left: -1 * app.devWidth + 'px'
+                });
+                $('#menuToggler').click();
             }
         });
     },
