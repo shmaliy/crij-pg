@@ -148,7 +148,7 @@ var app = {
             if (currentPosition == -1 * app.devWidth) {
 
 //                $('.slide-menu').css({left: 0});
-                $('.slide-menu').css({top: barHeight + 'px'});
+                $('.slide-menu').css({top: app.barHeight + 'px'});
 
                 $('.slide-menu').animate({
                     left: "+=" + app.devWidth + 'px'
