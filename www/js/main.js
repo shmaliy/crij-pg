@@ -2,7 +2,7 @@ var app = {
 
     devWidth : 0,
     devHeight: 0,
-    debug: true,
+    debug: false,
 
     displayAjust: function () {
         app.devHeight = $('html').height();
@@ -62,17 +62,26 @@ var app = {
 
             $('.slide-menu').touchwipe({
                 wipeUp: function() {
-                    $('.slide-menu').css({
-                        top: barHeight - heightDiff + 'px'
-                    });
-                    $('#debug').append('wipeUp');
+
+                    $('.slide-menu').animate({
+                        top: "+=" + barHeight - heightDiff + 'px'
+                    }, 100);
+
+//                    $('.slide-menu').css({
+//                        top: barHeight - heightDiff + 'px'
+//                    });
+//                    $('#debug').append('wipeUp');
 
                 },
                 wipeDown: function() {
-                    $('.slide-menu').css({
-                        top: -1* barHeight + 'px'
-                    });
-                    $('#debug').append('wipeDown');
+
+                    $('.slide-menu').animate({
+                        top: "+=" + heightDiff + 'px'
+                    }, 100);
+//                    $('.slide-menu').css({
+//                        top: -1* barHeight + 'px'
+//                    });
+//                    $('#debug').append('wipeDown');
                 },
                 min_move_x: 1000000,
                 min_move_y: 50,
