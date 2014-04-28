@@ -56,7 +56,7 @@ var app = {
 
         $('#debug').append($('.slide-menu').height() + 'px <br />');
 
-        if (parseInt($('.slide-menu').height()) > app.devHeight) {
+        if (parseInt($('.slide-menu').height()) > iframeHeight) {
 
             var heightDiff = parseInt($('.slide-menu').height()) - iframeHeight;
 
@@ -65,17 +65,14 @@ var app = {
                     $('.slide-menu').css({
                         top: barHeight - heightDiff + 'px'
                     });
-                },
-                min_move_x: 1000000,
-                min_move_y: 50,
-                preventDefaultEvents: true
-            });
+                    $('#debug').append('wipeUp');
 
-            $('.slide-menu').touchwipe({
+                },
                 wipeDown: function() {
                     $('.slide-menu').css({
                         top: -1* barHeight + 'px'
                     });
+                    $('#debug').append('wipeDown');
                 },
                 min_move_x: 1000000,
                 min_move_y: 50,
