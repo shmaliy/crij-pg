@@ -105,7 +105,7 @@ body {
 }
 .wrapper .slide-menu {
   position: fixed;
-  z-index: 1000;
+  z-index: 500;
   background: #05659f;
   /* Old browsers */
 
