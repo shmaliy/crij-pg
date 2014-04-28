@@ -182,7 +182,7 @@ var app = {
             wipeRight: function() {
                 $('#menuToggler').click();
             },
-            min_move_x: 20,
+            min_move_x: 50,
             min_move_y: 10000,
             preventDefaultEvents: true
         });
@@ -191,7 +191,7 @@ var app = {
             wipeLeft: function() {
                 $('#menuToggler').click();
             },
-            min_move_x: 20,
+            min_move_x: 50,
             min_move_y: 10000,
             preventDefaultEvents: true
         });
