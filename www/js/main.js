@@ -66,7 +66,7 @@ var app = {
 
                     $('.slide-menu').css({
                         top: 'auto',
-                        bottom: 0
+                        bottom: '100px'
                     });
 //                    $('#debug').append('wipeUp');
 
