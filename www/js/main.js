@@ -2,7 +2,7 @@ var app = {
 
     devWidth : 0,
     devHeight: 0,
-    debug: false,
+    debug: true,
 
     displayAjust: function () {
         app.devHeight = $('html').height();
