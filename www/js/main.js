@@ -97,7 +97,7 @@ var app = {
             position: 'absolute',
             width: '30px',
             height: app.devHeight + 'px',
-            top: 0,
+            top: '43px',
             left: 0,
             zIndex: 1000000
         });
