@@ -3,12 +3,13 @@ var app = {
     devWidth : 0,
     devHeight: 0,
     debug: false,
+    barHeight: 0,
 
     displayAjust: function () {
         app.devHeight = $('html').height();
         app.devWidth = $('html').width();
         var barHeight = $('.bar').height();
-
+        app.barHeight = $('.bar').height();
 
         if (app.devWidth > 0 && app.devWidth < 640) {
             $('#loaderContainer').addClass('progressbar320');
